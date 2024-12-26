@@ -61,10 +61,27 @@ printf("[%-'#4.3s]", $my_full_name); // [Jua#]
 printf("[%-'#14.3s]", $my_full_name); // [Jua###########]
 
 
+echo ("<br>");
+
+
+// oparators
+var_dump(4<=>4); //  int(0) first oparent second oparent er soman
+var_dump(4<=>2); //  int(1) first oparent second oparent er theke boro
+var_dump(4<=>5); //  int(-1) first oparent second oparent er theke choto
+
+
+$fName = "Jual ";
+$lName = "Rana";
+
+// $fullName = $fName .= $lName;
+// echo $fullName;
+// or 
+// echo $fName .= $lName;
+// or 
+$fName .= $lName;
+echo $fName;
 
 
 
-
-
-// #12 to #19
+// #19 to 
 ?>
